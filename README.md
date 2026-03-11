@@ -1,9 +1,9 @@
 # ✈️ Travel Destinations: Dynamic Landing Page
 
-This project is the second assignment of the Master's program, focusing on the transition from static web design to **Dynamic DOM Manipulation**. The core objective was to render UI components using JavaScript data structures instead of hardcoding them in HTML.
+This project is focused on the transition from static web design to **Dynamic DOM Manipulation**. The core objective was to render UI components using JavaScript data structures instead of hardcoding them in HTML.
 
 ## 🔗 Live Demo
-* **GitHub Pages:** [INSERT-YOUR-URL-HERE]
+* **GitHub Pages:** https://pablovecilla.github.io/practica-DOM-viajes/
 
 ---
 

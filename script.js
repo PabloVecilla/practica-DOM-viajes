@@ -91,8 +91,8 @@ for (let city of cities) {
     <option value="${city.toLowerCase()}">${city}</option>`; 
 }
 
-console.log(innerHtml); 
-select.optionsHTML = innerHtml; 
+console.log(optionsHtml); 
+select.innerHTML = optionsHtml; 
 // fin destinos
 
 
