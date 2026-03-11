@@ -30,7 +30,6 @@ section.recommend {
     flex-direction: column;
     justify-content: center;
     align-content: space-evenly; 
-    border: 2px solid blue; 
 }
 
 section.recommend div {
