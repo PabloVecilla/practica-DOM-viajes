@@ -29,7 +29,7 @@ section.recommend {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-content: center;
+    align-content: space-evenly; 
     border: 2px solid blue; 
 }
 
@@ -38,11 +38,11 @@ section.recommend div {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 section.recommend article{
-    width: 300px;
+    width: 30%;
 }
 
 section.recommend article img {
@@ -76,7 +76,7 @@ article main {
 
  @media screen and (max-width: 760px) {
     section.recommend article{
-        width: 100% !important; 
+        width: 100%; 
     }
 
 } 

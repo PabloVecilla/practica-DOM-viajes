@@ -5,12 +5,12 @@ const banner = document.querySelector("section.banner img");
 banner.addEventListener("click", () => {
     const currentBanner = banner.getAttribute("src"); 
     const index = bannerArray.indexOf(currentBanner); 
-    if (bannerArray.indexOf(currentBanner) !== 7)
+    if (bannerArray.indexOf(currentBanner) !== bannerArray.length)
         banner.src = bannerArray[index+1]; 
     else banner.src = bannerArray[0]; 
 
 })
-console.log(banner.src); 
+console.log(banner.getAttribute("src")); 
 
 
 // RECOMENDADOS
@@ -58,7 +58,7 @@ for (let recomendado of recomendados) {
     const card = document.createElement("article"); 
     card.innerHTML =`
         <header>
-            <img src=${recomendado.url_img} alt="${recomendado.title}">
+            <img src="${recomendado.url_img}" alt="${recomendado.title}">
         </header>
         <main>
             <h3>${recomendado.title}</h3>
@@ -85,14 +85,14 @@ const cities = [
 ];
 
 const select = document.querySelector("select"); 
-let innerHtml = ""; 
+let optionsHtml = ""; 
 for (let city of cities) {
-    innerHtml += `
+    optionsHtml += `
     <option value="${city.toLowerCase()}">${city}</option>`; 
 }
 
 console.log(innerHtml); 
-select.innerHTML = innerHtml; 
+select.optionsHTML = innerHtml; 
 // fin destinos
 
 
